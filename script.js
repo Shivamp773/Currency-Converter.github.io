@@ -56,7 +56,7 @@ function getExchangeRate() {
       amountVal = 1;
     }
     exchangeRateTxt.innerText = "Getting exchange rate...";
-    let url = `http://api.exchangeratesapi.io/v1/latest?access_key=cur_live_OOdUkhIYbFKxVRTJjiIooMpqX9YG21V2eCRCF8CV`;
+    let url = `https://api.exchangeratesapi.io/v1/latest?access_key=cur_live_OOdUkhIYbFKxVRTJjiIooMpqX9YG21V2eCRCF8CV`;
     // Replace YOUR_ACCESS_KEY with your actual access key
   
     fetch(url)
